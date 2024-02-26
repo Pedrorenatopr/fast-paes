@@ -179,12 +179,12 @@
 .clientes {
   background-image: url(fundo-preto.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 200px;
-  height: 800px;
+  padding-top: 0;
+  height: 70vh;
 }
 
 .card-clientes {
