@@ -416,6 +416,12 @@ input {
     padding-top: 0;
   }
 
+  .card-clientes {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 1em;
+  }
+
   .clientes {
     background-image: url(fundo-preto.png);
     background-repeat: no-repeat;
@@ -529,7 +535,7 @@ input {
 
   .card-send {
     border-radius: 20px;
-    width: 250px;
+    width: 230px;
   }
 
 
