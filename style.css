@@ -425,12 +425,12 @@ input {
   .clientes {
     background-image: url(fundo-preto.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
     display: grid;
     justify-content: space-around;
     align-items: center;
     padding-top: 0;
-    height: 100vw;
+    height: 100vh;
   }
 
   .texto-branco {
@@ -457,13 +457,12 @@ input {
   .clientes {
     background-image: url(fundo-preto.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vh;
     display: grid;
     justify-content: center;
     align-items: center;
     padding-top: 0;
     height: 400px;
-    background-color: black;
   }
 
   .texto-sobre {
