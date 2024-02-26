@@ -370,9 +370,9 @@ input {
   
 
   .section-um {
-    background-color: black;
+    background-color: rgb(224, 216, 216);
     border-radius: 30px;
-    width: 100%;
+    width: 370px;
     height: 700px;
     display: grid;
     justify-content: center;
