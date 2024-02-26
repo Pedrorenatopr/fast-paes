@@ -372,7 +372,7 @@ input {
   .section-um {
     background-color: black;
     border-radius: 30px;
-    width: 360px;
+    width: 100%;
     height: 700px;
     display: grid;
     justify-content: center;
@@ -398,7 +398,7 @@ input {
   }
   
   .img-principal {
-    width: 200px;
+    width: 250px;
   }
 
   .bt-bsb {
