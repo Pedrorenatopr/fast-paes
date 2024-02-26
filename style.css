@@ -377,7 +377,7 @@ input {
 
   .texto-card-um {
     color: black;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5em;
     padding-top: 20px;
     width: 100%;
@@ -389,7 +389,7 @@ input {
   .section-um {
     background-color: white;
     border-radius: 30px;
-    width: 370px;
+    width: 400px;
     height: 700px;
     display: grid;
     justify-content: center;
