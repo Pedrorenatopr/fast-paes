@@ -95,6 +95,14 @@
     width: 100%;
   }
 
+  .texto-card-um {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-top: 20px;
+    width: 100%;
+  }
+
   .texto-branco {
     color: white;
     font-size: 18px;
@@ -367,10 +375,19 @@ input {
     padding-left: 5px;
   }
 
+  .texto-card-um {
+    color: black;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+
   
 
   .section-um {
-    background-color: rgb(224, 216, 216);
+    background-color: white;
     border-radius: 30px;
     width: 370px;
     height: 700px;
