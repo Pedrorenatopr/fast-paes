@@ -363,7 +363,7 @@ input {
   margin: 1em;
 }
 
-@media screen and (max-device-width: 900px) {
+@media screen and (max-device-width: 1000px) {
 
   .menu-lista {
     display: none;
