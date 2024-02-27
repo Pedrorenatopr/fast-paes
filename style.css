@@ -192,7 +192,7 @@
   justify-content: space-around;
   align-items: center;
   padding-top: 0;
-  height: 70vh;
+  height: 80vh;
 }
 
 .card-clientes {
@@ -250,7 +250,11 @@
   background-image: url(Rectangle\ 34624225.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 900px;
+  height: 1000px;
+}
+
+.box-sobre-preto {
+  background-color: black;
 }
 
 .box-depoimentos {
