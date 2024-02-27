@@ -428,7 +428,7 @@ input {
 
   .section-dois {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: auto;
     justify-content: center;
     padding-top: 50px;
   }
