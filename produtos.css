@@ -44,6 +44,11 @@
     color: #CD682B;
   }
 
+  .seta {
+    text-align: center;
+    padding-top: 40px;
+  }
+
   .section-dois {
     display: grid;
     grid-template-columns: 20% 20% 20%;
