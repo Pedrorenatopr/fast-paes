@@ -256,6 +256,15 @@
   padding-top: 50px;
 }
 
+.texto-principal-sobre {
+  color: white;
+  padding-top: 30px;
+  line-height: 1.em;
+  font-size: 45px;
+  font-weight: 700;
+
+}
+
 .teste {}
 
 .texto-teste {
@@ -465,7 +474,7 @@ input {
   }
 
   .texto-principal {
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 30px;
     line-height: 1.em;
     font-size: 45px;
