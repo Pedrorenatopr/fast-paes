@@ -24,6 +24,15 @@
     cursor: pointer;
   }
 
+  .botao {
+    color: #000000;
+    border: none;
+  }
+
+  .material-icons.md-48 {
+    font-size: 34px; 
+}
+
   .button-item {
     display: none;
     background-color: #CD682B;
