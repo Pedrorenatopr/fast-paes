@@ -15,6 +15,14 @@
     background-color: #EFEFEF;
   }
 
+  .icones {
+    display: none;
+  }
+
+  .button-item {
+    display: none;
+  }
+
   nav {
     display: flex;
     align-items: center;
@@ -367,6 +375,31 @@ input {
 
   .menu-lista {
     display: none;
+  }
+
+  .icones {
+    display: flex;
+    justify-content: right;
+    margin-top: -40px;
+    padding-right: 10px;
+  }
+
+  .logo {
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+
+  .menu-item {
+    display: inline-block;
+  }
+
+  .menu-lista {
+    height: 100vh;
+    padding-top: 100px;
+  }
+
+  .button-item {
+    display: block;
   }
 
   .button-um {
