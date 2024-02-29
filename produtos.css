@@ -133,6 +133,50 @@
     padding-top: 20px;
   }
 
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+  }
+
+  .texto-f1 {
+    padding-top: 20px;
+  }
+
+  .redes-footer {
+    padding-top: 20px;
+  }
+
+  footer a {
+    color: black;
+    line-height: 40px;
+  }
+
+  input {
+    padding: 18px;
+  
+  }
+
+  .card-send {
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .send {
+    position: absolute;
+    margin-top: -30px;
+    overflow: hidden;
+    margin-right: -200px;
+  }
+
+  .copy {
+    text-align: center;
+    padding-top: 50px;
+    margin: 1em;
+  }
+
   @media screen and (max-device-width: 1000px){
 
     .section-dois {
@@ -179,5 +223,19 @@
         display: block;
         padding-top: 5px;
         padding-left: 5px;
+      }
+
+      footer {
+        display: grid;
+        padding-left: 20px;
+      }
+
+      .copy {
+        font-size: 12px;
+      }
+
+      .card-send {
+        border-radius: 20px;
+        width: 230px;
       }
   }
