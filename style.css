@@ -17,10 +17,19 @@
 
   .icones {
     display: none;
+    cursor: pointer;
+  }
+
+  .icones:hover{
+    cursor: pointer;
   }
 
   .button-item {
     display: none;
+    background-color: #CD682B;
+    width: 120px;
+    color: white;
+    border-radius: 40px;
   }
 
   nav {
@@ -45,8 +54,11 @@
 
   }
 
-  .menu-lista a {
+  .menu-item {
     color: black;
+  }
+
+  .menu-lista a {
     padding: 1em;
   }
 
