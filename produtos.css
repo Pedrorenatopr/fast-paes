@@ -114,8 +114,10 @@
     width: 350px;
     border-radius: 10px;
     background-color: white;
-  
-  
+  }
+
+  .titulo-card {
+    text-transform: uppercase;
   }
 
   .card {
