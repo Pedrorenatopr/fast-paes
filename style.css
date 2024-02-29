@@ -169,6 +169,20 @@
   cursor: pointer;
 }
 
+.seta-dois {
+  border-radius: 10px;
+}
+
+.seta-mobile {
+  text-align: center;
+  text-align: center;
+  margin-top: -80px;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  display: none;
+}
+
 .titulo-dois {
   text-align: center;
   padding-top: 100px;
@@ -488,6 +502,20 @@ input {
   }
 
   .bt-bsb {
+    display: none;
+  }
+
+  .seta-mobile {
+    text-align: center;
+    text-align: center;
+    margin-top: -80px;
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+  }
+
+  .seta {
     display: none;
   }
 
