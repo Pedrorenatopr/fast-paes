@@ -16,12 +16,45 @@
   }
 
   nav {
-    text-align: center;
-    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
   }
 
   .logo {
     width: 150px;
+  }
+
+  .button-item {
+    display: none;
+    background-color: #CD682B;
+    width: 120px;
+    color: white;
+    border-radius: 40px;
+  }
+
+  .menu-lista {
+    display: flex;
+
+  }
+
+  .menu-item {
+    color: black;
+  }
+
+  .menu-lista a {
+    padding: 1em;
+  }
+
+  .menu-lista a:hover {
+    color: #EEBA51;
+    transition: all 0.3s;
+  }
+
+  .destaque {
+    color: #EEBA51;
+    font-weight: bold;
   }
 
   .button-um {
@@ -30,7 +63,7 @@
     padding: 12px;
     border-radius: 90px;
     font-weight: 700;
-    width: 110px;
+    width: 238px;
     font-size: 14px;
     align-items: center;
     text-align: center;
@@ -38,10 +71,9 @@
 
   .titulo-dois {
     text-align: center;
-    padding-top: 50px;
-    font-size: 28px;
+    padding-top: 100px;
+    font-size: 52px;
     font-weight: 600;
-    color: #CD682B;
   }
 
   .seta {
