@@ -129,10 +129,10 @@
 
   .section-dois {
     display: grid;
-    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 18% 18% 18%;
     justify-content: center;
     padding-top: 50px;
-    gap: 70px;
+    gap: 2em;
   }
 
   .card-principal {
