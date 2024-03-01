@@ -153,6 +153,10 @@
     padding-top: 20px;
   }
 
+  .redes-footer a {
+    padding: 5px;
+  }
+
   footer a {
     color: black;
     line-height: 40px;
