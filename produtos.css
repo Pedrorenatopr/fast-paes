@@ -73,6 +73,10 @@
     font-weight: bold;
   }
 
+  .card-um {
+    text-align: center;
+  }
+
   .button-um {
     background-color: #CD682B;
     color: white;
@@ -92,10 +96,31 @@
     font-weight: 600;
   }
 
+  .bt-principal-div {
+    text-align: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bt-principal {
+    color: white;
+    background-color: #CD682B;
+    font-size: 17px;
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    width: 10px;
+    display: block;
+    width: 200px;
+  }
+
   .seta {
     text-align: center;
     padding-top: 40px;
     border-radius: 100px;
+    display: none;
+    justify-content: center;
   }
 
   .seta-dois {
@@ -226,6 +251,17 @@
 
       .button-um {
         display: none;
+      }
+
+      .bt-principal-div {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .seta {
+        display: flex;
       }
       
       nav {
