@@ -382,10 +382,43 @@
 
 }
 
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.card-contato {
+  background-color: white;
+  border-radius: 100px;
+  margin-top: 150px;
+}
+
+.icone-contato {
+  padding-top: 20px;
+  display: flex;
+  gap: 1em;
+
+}
+
+.mapa-teste {
+  width: 600px;
+}
+
+
+.texto-contato {
+  font-size: 44px;
+  font-weight: 600;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .texto-f1 {
@@ -670,6 +703,27 @@ input {
     display: grid;
     justify-content: center;
   }
+
+  .contato {
+    display: grid;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+
+  .mapa-teste {
+    width: 370px;
+  }
+
+  .card-contato {
+    border-radius: 100px;
+    margin-top: 5px;
+    background-color: #EFEFEF;
+  }
+
 
   footer {
     display: grid;
