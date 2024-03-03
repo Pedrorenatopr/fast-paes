@@ -75,6 +75,22 @@
 
   .card-um {
     text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fundo-um {
+
+  }
+
+  .div-cesto {
+    display: none;
+    justify-content: center;
+  }
+
+  .cesto {
+    border-radius: 20px;
+    text-align: center;
   }
 
   .button-um {
@@ -257,6 +273,29 @@
         text-align: center;
         display: flex;
         align-items: center;
+        justify-content: center;
+      }
+
+      .fundo-um {
+        background-color: white;
+        width: 400px;
+        border-radius: 40px;
+        margin-top: 50px;  
+      }
+
+      .card-um {
+        text-align: center;
+        display: grid;
+        justify-content: center;
+      }
+
+      .cesto {
+        align-items: center;
+        text-align: center;
+      }
+
+      .div-cesto {
+        display: flex;
         justify-content: center;
       }
 
