@@ -55,10 +55,6 @@
     font-weight: bold;
   }
 
-  .destaque:hover {
-    color: black;
-    transition: all 0.3s;
-  }
 
   .menu-lista {
     display: flex;
