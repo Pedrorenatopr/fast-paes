@@ -14,6 +14,21 @@
     scroll-behavior: smooth;
   }
 
+  .ver-mais {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .bt-ver-mais {
+    background-color: #CD682B;
+    cursor: pointer;
+    color: #EFEFEF;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
   body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #EFEFEF;

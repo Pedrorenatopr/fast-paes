@@ -282,6 +282,133 @@
 
     </div>
 
+    <!-- Aqui começa a seção ver mais  -->
+
+    <div id="minhaDiv" style="display: none;">
+    
+        <div id="anchor3" class="section-dois">
+            <div id="anchor2" class="card">
+                <article class="card-principal">
+                    <img class="img-card" src="autraliano.jpg" alt="" width="300px">
+                    <p class="texto-card">
+                        <span class="titulo-card">Australiano</span>
+                        <br><br>
+                        Peso: 60g
+                        <br>
+                        Diâmetro: 10cm
+                        <br>
+                        Caixa: 36 unidades
+                        <br><br>
+    
+                        Rico em sabor e cor, com<br>
+                        uma crosta escura e um<br>
+                        miolo macio, destacando-se <br>
+                        pelo seu toque adocicado e <br>
+                        notas de mel e cacau.
+                    </p>
+                    <br><br>
+                </article>
+            </div>   
+    
+            <div class="card">
+                <article class="card-principal">
+                    <img class="img-card" src="hamburguer-g3.jpg" alt="" width="300px">
+                    <p class="texto-card">
+                        <span class="titulo-card">Hambúrguer com gergelim</span>
+                        <br><br>
+                        Peso: 60g
+                        <br>
+                        Diâmetro: 10cm
+                        <br>
+                        Caixa: 36 unidades
+                        <br><br>
+    
+                        Um pão dourado e macio, <br>
+                        salpicado com sementes de <br>
+                        gergelim para um sabor e <br>
+                        textura únicos, perfeito para<br>
+                        envolver deliciosos hambúrgueres.
+                    </p>
+                    <br><br>
+                </article>
+            </div>
+    
+            <div class="card">
+                <article class="card-principal">
+                    <img class="img-card" src="pao-x.jpg" alt="" width="300px">
+                    <p class="texto-card">
+                        <span class="titulo-card">Pão X</span>
+                        <br><br>
+                        Peso: 60g
+                        <br>
+                        Diâmetro: 10cm
+                        <br>
+                        Caixa: 36 unidades
+                        <br><br>
+    
+                        Pão com massa amarelada<br>
+                        de sabor amanteigado<br>
+                        e aroma exclusivo.<br>
+                        Utilização de ovo <br>
+                        para camada brilhosa.
+                    </p>
+                    <br><br>
+                </article>
+            </div>
+    
+            <div class="card">
+                <article class="card-principal">
+                    <img class="img-card" src="hamburguer-g.jpg" alt="" width="300px">
+                    <p class="texto-card">
+                        <span class="titulo-card">Brioche caramelo com <br> gergelim</span>
+                        <br><br>
+                        Peso: 60g
+                        <br>
+                        Diâmetro: 10cm
+                        <br>
+                        Caixa: 36 unidades
+                        <br><br>
+    
+                        Deliciosamente doce, com<br>
+                        um toque de caramelo e <br>
+                        sementes de gergelim para<br>
+                        uma crocância sutil. <br>
+                    </p>
+                    <br><br>
+                </article>
+            </div>
+    
+            <div class="card">
+                <article class="card-principal">
+                    <img class="img-card" src="brioche-p.jpg" alt="" width="300px">
+                    <p class="texto-card">
+                        <span class="titulo-card">Brioche pincelado</span>
+                        <br><br>
+                        Peso: 60g
+                        <br>
+                        Diâmetro: 10cm
+                        <br>
+                        Caixa: 36 unidades
+                        <br><br>
+    
+                        Pão macio e levemente<br>
+                        adocicado, com superfície<br>
+                        dourada e brilhante devido<br>
+                        Utilização de ovo <br>
+                        para camada brilhosa.
+                    </p>
+                    <br><br>
+                </article>
+            </div>
+    
+        </div>
+
+    </div>
+    <div class="ver-mais">
+        <button class="bt-ver-mais" type="button" onclick="Mudarestado('minhaDiv')"><h1 id="btn">Ver mais</h1></button>
+    </div>
+    
+
     <div class="box-clientes">
         <div class="clientes">
 
@@ -453,6 +580,21 @@
                 itens.style.display = 'block'
             }
         }
+    </script>
+
+    <script>
+                  function Mudarestado(el) {
+    var display = document.getElementById(el).style.display;
+    var h1 = document.getElementById("btn");
+
+      if (display == "none") {
+        document.getElementById(el).style.display = 'block';
+        h1.innerHTML = "Ver menos";
+      } else {
+        document.getElementById(el).style.display = 'none';
+        h1.innerHTML = "Ver mais";
+      }
+ }
     </script>
 
 
