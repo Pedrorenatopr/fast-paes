@@ -18,10 +18,9 @@
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     cursor: pointer;
-    width: 50px;
   }
 
   .ver-mais {
