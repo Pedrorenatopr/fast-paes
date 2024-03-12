@@ -125,6 +125,12 @@
     padding-top: 50px;
   }
 
+  .img-principal {
+    border-radius: 10px;
+    height: 500px;
+    width: 516px;
+  }
+
   .texto-pao {
     color: white;
     padding-top: 30px;
@@ -592,6 +598,7 @@ input {
   
   .img-principal {
     width: 250px;
+    height: 242px;
   }
 
   .bt-bsb {
