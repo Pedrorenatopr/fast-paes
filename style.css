@@ -81,6 +81,11 @@
   .destaque {
     color: #EEBA51;
     font-weight: bold;
+    line-height: 40px;
+  }
+
+  .destaque-home {
+    color: #EEBA51;
   }
 
 
@@ -273,6 +278,10 @@
   height: 80vh;
 }
 
+.img-clientes {
+  width: 250px;
+}
+
 .card-clientes {
   display: grid;
   grid-template-columns: 30% 30% 30%;
@@ -460,6 +469,10 @@ footer {
 
 footer a {
   color: black;
+  line-height: 40px;
+}
+
+.item-footer-tres {
   line-height: 40px;
 }
 
