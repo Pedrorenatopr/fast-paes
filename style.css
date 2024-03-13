@@ -536,7 +536,7 @@ input {
   }
 
   .texto-pao {
-    color: black;
+    color: white;
     padding-top: 30px;
     line-height: 1.em;
     font-size: 54px;
@@ -558,7 +558,7 @@ input {
   }
 
   .texto-card-um {
-    color: black;
+    color: white;
     font-size: 14px;
     line-height: 1.5em;
     padding-top: 20px;
@@ -569,9 +569,9 @@ input {
   
 
   .section-um {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 30px;
-    width: 400px;
+    width: 380px;
     height: 800px;
     display: grid;
     justify-content: center;
@@ -597,7 +597,7 @@ input {
   }
   
   .img-principal {
-    width: 250px;
+    width: 350px;
     height: 242px;
   }
 
@@ -608,11 +608,17 @@ input {
   .seta-mobile {
     text-align: center;
     text-align: center;
-    margin-top: -80px;
+    margin-top: -30px;
     position: absolute;
     width: 100%;
     cursor: pointer;
     display: block;
+  }
+
+  .seta-dois {
+    border-radius: 10px;
+    border: solid 1px orangered;
+    width: 50px;
   }
 
   .seta {
