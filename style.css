@@ -612,7 +612,7 @@ input {
     position: absolute;
     width: 100%;
     cursor: pointer;
-    display: block;
+    display: none;
   }
 
   .seta-dois {
