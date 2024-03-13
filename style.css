@@ -571,12 +571,14 @@ input {
   .section-um {
     background-color: rgb(0, 0, 0);
     border-radius: 30px;
-    width: 380px;
+    width: 395px;
     height: 800px;
     display: grid;
     justify-content: center;
     padding-top: 10px;
     text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 
   .bt-bsb {
