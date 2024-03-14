@@ -571,7 +571,7 @@ input {
   .section-um {
     background-color: rgb(0, 0, 0);
     border-radius: 30px;
-    width: auto;
+    width: 99%;
     height: 800px;
     display: grid;
     justify-content: center;
