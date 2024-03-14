@@ -122,7 +122,8 @@
   .section-principal {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 0;
+    margin-top: 50px;
   }
 
   .img-principal {
@@ -147,6 +148,12 @@
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
+  }
+
+  .section-principal {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
   }
 
   .bt-bsb {
@@ -555,6 +562,7 @@ input {
     display: block;
     padding-top: 5px;
     padding-left: 5px;
+    padding-top: 10px;
   }
 
   .texto-card-um {
@@ -570,12 +578,12 @@ input {
 
   .section-um {
     background-color: rgb(0, 0, 0);
-    border-radius: 30px;
-    width: 99%;
+    width: 420px;
     height: 800px;
+    border-radius: 0;
     display: grid;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 30px;
     text-align: center;
   }
 
