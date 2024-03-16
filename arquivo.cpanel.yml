@@ -2,6 +2,6 @@
 ---
 deployment:
  tasks:
-  - export DEPLOYPATH=/home/fastpaes/repositories/fast-paes/
+  - export DEPLOYPATH=/home/fastpaes/repositories/puplic_html/
   - /bin/cp index.html $DEPLOYPATH
   - /bin/cp style.css $DEPLOYPATH
