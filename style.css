@@ -812,6 +812,10 @@ input {
     padding-top: 100px;
   }
 
+  .footer-quatro {
+    display: none;
+  }
+
   .copy {
     font-size: 12px;
   }
