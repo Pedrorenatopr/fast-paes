@@ -633,12 +633,12 @@ input {
     position: absolute;
     width: 100%;
     cursor: pointer;
-    display: none;
+    display: flex;
+    justify-content: center;
   }
 
   .seta-dois {
     border-radius: 10px;
-    border: solid 1px orangered;
     width: 50px;
   }
 
