@@ -181,7 +181,7 @@
     font-size: 18px;
     line-height: 1.5em;
     padding-top: 20px;
-    width: 100%;
+    width: 500px;
   }
 
   .texto-branco {
@@ -559,7 +559,7 @@ input {
     color: white;
     padding-top: 30px;
     line-height: 1.em;
-    font-size: 54px;
+    font-size: 44px;
     font-weight: 700;
   }
 
@@ -581,9 +581,11 @@ input {
   .texto-card-um {
     color: white;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.em;
     padding-top: 20px;
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
 
