@@ -631,7 +631,7 @@ input {
   .seta-mobile {
     text-align: center;
     text-align: center;
-    margin-top: -30px;
+    margin-top: -55px;
     position: absolute;
     width: 100%;
     cursor: pointer;
@@ -641,7 +641,7 @@ input {
 
   .seta-dois {
     border-radius: 10px;
-    width: 50px;
+    width: 90px;
   }
 
   .seta {
