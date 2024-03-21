@@ -277,6 +277,19 @@
   padding-top: 200px;
 }
 
+.bt-clientes {
+  display: block;
+  color: white;
+  background-color: #CD682B;
+  font-size: 12px;
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 0;
+  font-weight: 700;
+  width: 180px;
+  text-align: center;
+}
+
 .empresa-cliente {
   padding-left: 5px;
 }
